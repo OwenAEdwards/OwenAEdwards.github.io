@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: orangered;
+  justify-content: space-around;
+}
+
+/* img.portrait {
+  width: 100px;
+  border-radius: 50px;
+  Making the border-radius declaration half of the pixel size of the width makes the image appear circular
+}
+*/
+
+#name-text-holder {
+  text-align: center;
+  margin: 50px;
+}
+
+.fa-envelope, .fa-linkedin, .fa-square-github {
+  font-size: 100px;
+}
+
+/*
+.fa-linkedin::after {
+  background-color: #0072b1;;
+}*/
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-envelope {
+  color: white;
+}
+
+.fa-square-github {
+  color: #171515;
+}
+
+/* Removing anchor tag link text decorations */
+a {
+  text-decoration: none;
+}
+
+/* makes the fragment identifiers colored white */
+.frag-id a {
+  color: white;
+}
+
+/* hides the unordered list item bullet points */
+.frag-id {
+  list-style-type: none;
+}
+
+h2, h3, p, h4 {
+  margin: 0;
+}
+
+h2, h3, p, h4, .skill-list {
+  text-align: center;
+}
+
+h3 {
+  color: red;
+}
+
+li.skill-item {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.link-container {
+  text-align: center;
+}
+
+.link {
+  margin: 0px;
+}
+
+.link-button {
+  margin: 50px;
+  border-radius: 8px;
+  font-size: 32px;
+}
